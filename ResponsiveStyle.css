@@ -1,0 +1,859 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 2%;
+    top: 6px;
+
+}
+
+.burger:hover {
+    /* border: 2px solid black; */
+    border-radius: 4px;
+}
+
+.burger:active {
+    background-color: rgb(0, 0, 0);
+}
+
+.burger:active .line {
+    background-color: white;
+}
+
+.burger .line {
+    width: 43px;
+    background-color: rgb(0, 0, 0);
+    height: 4px;
+    margin: 9px 9px;
+}
+
+/*............ big Laptop(1440) cross Devices ..............(40px margin)*/
+@media only screen and (max-width:1300px) {
+
+
+    /* This is Top navbar section */
+    .sectionLeft {
+        width: 19%;
+
+    }
+
+    /* This is bottom navbar section */
+    .footernavbar {
+        gap: 10px;
+    }
+
+    .footernavitem {
+        gap: 23px;
+    }
+
+    .footersectionLeft {
+        width: 15%;
+    }
+
+    .footersectionMiddle {
+        width: 60%;
+        justify-content: flex-start;
+    }
+
+    .footersectionRight {
+        width: 25%;
+    }
+
+    .footernavitem li a {
+        font-size: 16px;
+    }
+
+    /* This is Skill section Module-1 */
+
+    .skill {
+        padding: 80px 40px 80px 40px;
+    }
+
+    .skill-Items {
+        gap: 20px;
+    }
+
+    .skill-Items .content {
+        padding: 5px;
+        height: 260px;
+        width: 215px;
+    }
+
+    .skill-Items .content .section {
+        gap: 15px;
+    }
+
+    .skill-Items .content .section .description .heading {
+        font-size: 16px;
+    }
+
+    .skill-Items .content .section .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        /* border-radius: 10px; */
+    }
+
+    .content .section .back-end {
+        padding-left: 24px;
+    }
+
+    .skill-Title .title2 {
+        font-size: 32px;
+    }
+
+    .skill-Title .title2 span {
+        font-size: 32px;
+    }
+
+    /* ..............This is Skill section Module-2 .............*/
+
+    .skill .skillDescription .skill-Content {
+        gap: 20px;
+    }
+
+    .skill .skillDescription .skill-Content .skill-Content-Section {
+        padding: 5px;
+        height: 270px;
+        width: 218px;
+        gap: 21px;
+    }
+
+    .descriptionSection3 {
+        line-height: 20px;
+    }
+
+    .descriptionSection2 {
+        font-size: 13px;
+    }
+
+    /*.............. This is Project section................... */
+    .project {
+        padding: 80px 40px;
+
+    }
+
+    .project .container .row .projectColmumn-Left img {
+        height: 183px;
+        width: 252px;
+    }
+
+    .projectColmumn-Right .project-Name {
+        font-size: 20px;
+    }
+
+    .project-Technologies .tag {
+        padding: 5px 5px;
+
+    }
+
+    .project-Technologies .tag p {
+        font-size: 12px;
+    }
+
+    .projectColmumn-Right .project-Action {
+        padding: 7px 6px;
+
+    }
+
+    .projectColmumn-Right .project-Action a {
+        font-size: 15px;
+    }
+
+    /*.............. This is Testimonial section................... */
+
+    .testimonial {
+
+        padding: 80px 40px;
+    }
+
+    .testimonial-Content {
+        gap: 19px;
+        margin-top: 36px;
+    }
+
+    .testimonial-Content .card {
+        padding: 6px;
+        height: 312px;
+        width: 222px;
+        gap: 12px;
+    }
+
+    .card .avtar {
+        gap: 10px;
+
+    }
+
+    .star img {
+        height: 15px;
+    }
+
+    .card .testimonial-Massasge {
+        font-size: 12px;
+        line-height: 19px;
+        text-align: center;
+    }
+
+    /* .............This is contact form ............*/
+    .contact {
+        padding: 80px 40px;
+
+    }
+
+    .contactForm .row .col {
+        width: 345px;
+    }
+
+    .contactForm .row .col .formInput {
+        width: 100%;
+
+    }
+
+    /*.............. This is Get in Touch section................... */
+    .touch {
+        padding: 25px 40px;
+        gap: 34px;
+        margin-bottom: 45px;
+    }
+
+    /*.............. This is Footer section................... */
+    .footer {
+        padding: 0px 40px;
+        gap: 12px;
+    }
+
+    /*.............. This is about section................... */
+    .about {
+        padding: 80px 40px;
+
+    }
+
+    .aboutRow .left img {
+        width: 383px;
+        height: 350px;
+    }
+
+    .about .aboutRow {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .right .aboutSection2 {
+        font-size: 32px;
+    }
+
+    .right .aboutSection2 .stylespan {
+        font-size: 32px;
+    }
+
+    .aboutContent {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+
+    /*.............. This is Reward section Responsive Style .................*/
+    .rewards {
+        padding: 50px 100px;
+    }
+
+    .rewards .rewardsGroup .rewardsHeading {
+        font-size: 18px;
+        /* line-height: 17px; */
+    }
+
+    .rewards .rewardsGroup .count {
+        font-size: 35px;
+    }
+
+    /* ...........This is Header section Responsive Style........... */
+    .headerRight img {
+        width: 399px;
+        height: 349px;
+        margin-bottom: 100px;
+        margin-left: 13px;
+    }
+
+    .headerSection {
+        display: flex;
+        padding: 100px 40px 45px 40px;
+        align-items: center;
+        background: #F5FCFF;
+    }
+
+    .content-part p.main-Text1 {
+        font-size: 40px;
+    }
+
+    .main-Text2 .textDecor {
+        font-size: 32px;
+    }
+
+    .content-part p.main-Text2 {
+        font-size: 16px;
+
+    }
+
+    .content-part p.main-Text3 {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .headerLeft {
+        width: 55%;
+    }
+
+
+
+}
+
+/*............ Mini Laptop(1024) cross Devices ..............*/
+@media only screen and (max-width:1025px) {
+
+    /* This is Navbar Responsive Style */
+    .sectionRight {
+        gap: 10px;
+
+    }
+
+    .navitem {
+        display: flex;
+        align-items: center;
+        gap: 19px;
+    }
+
+    .cvCheckBtn {
+        padding: 5px 8px;
+        font-size: 16px;
+
+    }
+
+}
+
+/*............ Mini Laptop Devices Range ..............*/
+@media only screen and (max-width:920px) {
+
+    /* This is Reward section Responsive Style */
+    .rewards {
+        padding: 50px 75px;
+    }
+
+    .rewards .rewardsGroup .count {
+        font-size: 35px;
+        line-height: 20px;
+    }
+
+    .rewards .rewardsGroup .rewardsHeading {
+        font-size: 20px;
+
+    }
+
+
+    /* This is header section Responsive Style */
+    .headerSection {
+        flex-direction: column-reverse;
+    }
+
+    .headerRight {
+        width: auto;
+    }
+
+    .headerLeft {
+        width: auto;
+    }
+
+    .headerRight img {
+        width: 399px;
+        height: 349px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+    }
+
+    .content-part p.main-Text1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/*............ Tab Devices Range ..............*/
+@media only screen and (max-width:769px) {
+
+    /* This is My Skill Responsive Style Module-1*/
+
+    .skill-Items {
+        gap: 60px;
+        flex-wrap: wrap;
+    }
+
+    .skill-Items .content {
+        padding: 5px;
+        height: 285px;
+        width: 250px;
+
+    }
+
+    .skill-Items .content .section {
+        gap: 36px;
+
+    }
+
+    .skill-Items .content .section .logo {
+        gap: 13px;
+    }
+
+    .skill-Title .title2 span {
+        font-size: 25px;
+    }
+
+    .skill-Title .title2 {
+        font-size: 25px;
+    }
+
+    /* This is My Skill Responsive Style Module-2*/
+
+    .skill .skillDescription .skill-Content {
+        gap: 60px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skill .skillDescription .skill-Content .skill-Content-Section {
+        padding: 14px;
+        height: 293px;
+        width: 260px;
+        gap: 28px;
+    }
+
+    /* This is Projects Responsive Style */
+
+    .project .container .row {
+        gap: 0px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project .container .row .projectColmumn-Left img {
+        height: 209px;
+        width: 304px;
+    }
+
+    .project .container .row .projectColmumn-Right {
+        padding: 16px 17px;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .projectColmumn-Right .project-Technologies {
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .project .container .row .projectColmumn-Left {
+        padding: 8px;
+        border-radius: 0px 0px 12px 12px;
+    }
+
+
+    /* This is Testimonial Responsive Style */
+    .testimonial-Content {
+        gap: 42px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .testimonial-Content .card {
+        display: flex;
+        padding: 25px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 22px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 8px -2px;
+        height: 425px;
+        width: 309px;
+    }
+
+    .testimonial-Content .card {
+        padding: 15px;
+        gap: 16px;
+        height: 311px;
+        width: 262px;
+    }
+
+    /* This is Get in touch Style */
+    .touch {
+        padding: 65px 40px;
+
+    }
+
+    /* ..................This is Bottom Navbar/footer Responsive Style .......................*/
+
+    .footernavbar {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .footersectionMiddle {
+        width: 71%;
+        justify-content: right;
+    }
+
+    .footersectionLeft {
+        width: 25%;
+    }
+
+    .footersectionRight {
+        width: 35%;
+    }
+
+    .footernavitem {
+        gap: 14px;
+    }
+
+    .footer-contentPart .section2 {
+        width: 100%;
+
+    }
+
+    /* This is Navbar Responsive Style */
+    .myNavbar {
+        flex-direction: column;
+        height: 560px;
+        justify-content: center;
+        align-items: center;
+        background: #f5fcff;
+        transition: 0.5s ease-in-out;
+    }
+
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .cvCheckBtn {
+        width: 125px;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .navitem {
+        flex-direction: column;
+    }
+
+    .navitem li {
+        font-size: 23px;
+        /* padding: 14px; */
+    }
+
+    .sectionRight {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .h-nav-resp {
+        height: 65px;
+        transition: 0.5s ease-in-out;
+
+    }
+
+    .sectionLeft {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .v-nav-resp {
+        display: none;
+
+    }
+}
+
+/*............ Mobile Devices Range ..............*/
+@media only screen and (max-width:426px) {
+
+    .myhr {
+        width: 95%;
+        margin: 0px auto;
+    }
+
+
+    /* ..........Thsi is Navbar section ..............*/
+    .myNavbar {
+        background: #f5fcffec;
+    }
+
+    .navitem li {
+
+        border-bottom: 2px solid #ffffff00;
+    }
+
+    .sectionLeft {
+        width: 100%;
+        justify-content: flex-start;
+        align-items: center;
+        display: flex;
+    }
+
+    /* ..........Thsi is Projects section ..............*/
+    .project {
+        padding: 80px 20px;
+    }
+
+    .project .container .row .projectColmumn-Left img {
+        height: 182px;
+        width: 274px;
+    }
+
+    .projectColmumn-Right .project-Description {
+        line-height: normal;
+        width: 100%;
+    }
+
+    .projectColmumn-Right .project-Action a {
+        font-size: 12px;
+    }
+
+    /* ..........Thsi is show more button feture section ..............*/
+    .showmoreShorts {
+        width: 168px;
+        padding: 4px;
+    }
+
+    .showlessShorts {
+        width: 168px;
+        padding: 4px;
+    }
+
+    .showMore {
+        margin-top: -15px;
+    }
+
+    /* ..........Thsi is My Skill section ..............*/
+
+
+    .SkillModule2 {
+        /* margin-top: 155px; */
+        padding: 80px 0px 0 0;
+    }
+
+    .skill {
+        padding: 80px 0px;
+    }
+
+    .skill-Title .title1 {
+        padding: 11px 28px;
+        background: #d2d2d2;
+        border-radius: 20px;
+        display: flex;
+    }
+
+    .skill-Title .title2 {
+        width: 60%;
+        font-size: 16px;
+    }
+
+    .skill-Title .title2 span {
+        font-size: 16px;
+    }
+
+    /* ..........Thsi is About me section ..............*/
+    .about {
+        padding: 80px 20px;
+    }
+    .aboutRow .left img {
+        width: 243px;
+        height: 242px;
+    }
+
+    .right .aboutSection2 {
+        font-size: 25px;
+    }
+
+    .right .aboutSection2 .stylespan {
+        font-size: 25px;
+    }
+
+    /* ..........Thsi is Reward section ..............*/
+
+    .rewards {
+        padding: 10px 35px;
+    }
+
+    .rewards .rewardsGroup .rewardsHeading {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .rewards .rewardsGroup .count {
+        font-size: 22px;
+        line-height: 18px;
+    }
+
+    /* ..........Thsi is Header section ..............*/
+    .headerSection {
+         padding: 100px 20px 45px 20px;
+ 
+    }
+    .headerRight img {
+        width: 307px;
+        height: 254px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    .content-part p.main-Text1 {
+        font-size: 30px;
+    }
+
+    .content-part p.main-Text2 {
+        height: 61px;
+    }
+
+    .touchBtn {
+        padding: 7px 13px;
+        font-size: 14px;
+        display: flex;
+
+    }
+
+    .headerLeft {
+        gap: 25px;
+    }
+
+    .content-part {
+        gap: 40px;
+    }
+
+    /* ..........Thsi is Get in Touch form section..............*/
+    .touch {
+        padding: 75px 20px 20px 20px;
+        margin-bottom: 20px;
+    }
+
+    .touch-Container-Text {
+        font-size: 16px;
+    }
+
+    .touch-Container-row .hading2 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .touch .touch-Container {
+        gap: 20px;
+        padding: 0 0;
+    }
+
+
+
+    .Email img {
+        height: 20px;
+    }
+
+    .Phone img {
+        height: 20px;
+    }
+
+    /* ..........Thsi is footer  section ..............*/
+    .footer {
+        display: flex;
+        padding: 0px;
+     }
+    .footernavbar {
+        display: none;
+    }
+
+    .footer-contentPart {
+        padding: 12px;
+    }
+
+    .touch-Container-row .hading1 {
+        display: flex;
+    }
+
+    .footer-contentPart .section2 {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .touch-Container-row p {
+        display: flex;
+        /* text-align: center; */
+    }
+
+    /* ..........Thsi is Testimonial section  ..............*/
+
+    .testimonial {
+        padding: 80px 0px;
+        margin-top: 40px;
+    }
+
+    /* ..........Thsi is contact section  ..............*/
+    .contact {
+        padding: 80px 20px;
+    }
+
+    .contactTitle .contactSection2 {
+        font-size: 41px;
+        font-weight: 700;
+    }
+
+    .contactForm .row {
+        flex-direction: column;
+    }
+
+    .contactForm .col {
+        width: 100%;
+    }
+
+    .contactForm .row .col {
+        width: 340px;
+    }
+
+    .contactForm button {
+        padding: 7px 16px;
+        font-size: 14px;
+        border: none;
+    }
+
+    /* This is Top Responsive section */
+    .h-nav-resp {
+        height: 55px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .burger {
+
+        right: 2%;
+        top: 11px;
+    }
+
+    .burger .line {
+        width: 33px;
+        background-color: rgb(0, 0, 0);
+        height: 3px;
+        margin: 7px 6px;
+    }
+}

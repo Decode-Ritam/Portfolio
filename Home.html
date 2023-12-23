@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritam Poftfolio</title>
+
+    <!-- GOOGLE FONTS STYLE SHEET -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   
+    <!-- Include jsPDF library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+
+
+    <!-- CUSTOMIZE STYLE SHEET  -->
+    <link rel="stylesheet" href="index.css">
+    <!-- CUSTOMIZE RESPONSIVE STYLE SHEET  -->
+    <link rel="stylesheet" href="ResponsiveStyle.css">
+
+</head>
+
+<body>
+    <!-- THIS IS NAVBAR -->
+    <div class="myNavbar h-nav-resp" id="navbar">
+        <nav class="navbar nav-row">
+            <div class="sectionLeft  ">
+                <div class="navLogo">
+                    <a  class="list" href="#">Pro Devolper</a>
+                </div>
+
+            </div>
+            <div class="sectionMiddle v-nav-resp ">
+                <ul class="navitem">
+                    <li class="list targetHome"><a href="#home-link">Home</a></li>
+                    <li class="list targetAbout"><a href="#about-Me">About me</a></li>
+                    <li class="list targetSkills"><a href="#skills">Skills</a></li>
+                    <li class="list targetSkillsSet"><a href="#skill-Set">Skill Set</a></li>
+                    <li class="list targetProjects"><a href="#Projects">Projects</a></li>
+                    <li class="list targetTestimonial"><a href="#testiimonial">Testimonial</a></li>
+                    <li class="list tergetContact"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!-- This si vertical divider -->
+            <div class="divider v-nav-resp"></div>
+            <div class="sectionRight v-nav-resp ">
+
+                <button class="moodebutn light"> <img src="images/lightMoodIcon.png" alt="mood" title="Change Dark Mood" ></button>
+                <button class="moodebutn dark" style="display:none" > <img src="images/darkMoodeIcon.png" alt="mood" title="Change Light Mood" ></button>
+                <button class="cvCheckBtn list" id="downloadBtn" title="Download My CV">Download CV</button>
+            </div>
+
+        </nav>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+
+    <!-- THIS IS HEADERSECTION -->
+    <div class="headerSection" id="home-link">
+        <div class="headerLeft">
+            <div class="content-part">
+                <p class="main-Text1">Hey, I am Ritam 👋 </p>
+                <!-- <p class="main-Text2"> I am <span>Website Devolper</span> </p> -->
+
+                <p class="main-Text2"> <span class="textDecor">I am ,</span> <br> <span id="element"></span> </p>
+
+                <!-- Using "I specialize in": -->
+                <!-- <p class="main-Text2">  Specialize in creating dynamic and interactive web applications.</p> -->
+                <!-- <p class="main-Text2">  specialize in optimizing website performance and speed.</p> -->
+                <!-- <p class="main-Text2">  specialize in implementing secure authentication and authorization systems.</p> -->
+
+                <!--Using "I am proficient in": -->
+                <!-- <p class="main-Text2">proficient in responsive web design and cross-browser compatibility.</p> -->
+                <!-- <p class="main-Text2">proficient in front-end technologies such as HTML, CSS, and JavaScript.</p> -->
+                <!-- <p class="main-Text2">proficient in using popular front-end frameworks like React and Angular.</p> -->
+
+                <!--Using "I have experience with": -->
+                <!-- <p class="main-Text2"> have experience with back-end development using languages like Node.js and Python.</p> -->
+                <!-- <p class="main-Text2"> have experience with database management and design, including SQL and MongoDB.</p> -->
+                <!-- <p class="main-Text2"> have experience with version control systems such as Git.</p> -->
+
+
+                <p class="main-Text3">
+                    I am a skilled Frontend Website Developer(React.js) dedicated to creating visually stunning and
+                    user-friendly interfaces websites. With expertise in HTML, CSS, and JavaScript, Committed to
+                    delivering excellence. As a freelancer, I bring a passion
+                    for innovation and a commitment to timely project delivery. Even though I have been creating web
+                    applications for over 2 years,
+                    Let's work together to create impactful digital solutions that leave a lasting impression. I am
+                    eager to contribute my skills to your projects and bring your vision to life.
+
+                </p>
+                <p class="main-Text2"><span class="textDecor1">#</span> <span id="message"></span></p>
+
+            </div>
+            <div class="location Tracking">
+                <a class="locationText" title="Check My Location" href="https://www.google.com/maps/place/Rajendrapur,+West+Bengal"> <img
+                        src="images/LocationIcon.png" alt="LocationIcon">
+                    Kolkata (Naihati, Rajendrapur)
+                </a>
+            </div>
+            <div class="hire Tracking">
+                <a class="locationText" title="You can Hire me!" href="#"> <img src="images/BluetickIcon.png" alt="BluetickIcon">
+                    Available for new projects
+                </a>
+
+            </div>
+            <div class="action-part">
+                <a class="touchBtn" href="#Get-in-touch" title="Connect With Us ?">Get in touch </a>
+            </div>
+        </div>
+
+        <div class="headerRight">
+            <img src="images/headingSection.png" alt="headingSection">
+            <!-- <img src="images/headingSection.png" style="width:450px;height: 400px; margin-bottom:100px;"
+                alt="headingSection"> -->
+        </div>
+    </div>
+
+    <!-- THIS IS REWARDS SECTIONS -->
+    <div class="rewards">
+        <div class="rewardsGroup">
+            <p class="count" data-val="15">00+</p>
+            <p class="rewardsHeading">Satisfied clients</p>
+        </div>
+        <div class="divider"></div>
+        <div class="rewardsGroup">
+            <p class="count" data-val="69"><span>00+</span></p>
+            <p class="rewardsHeading">Projects completed</p>
+        </div>
+        <div class="divider"></div>
+        <div class="rewardsGroup">
+            <p class="count" data-val="23">00+</p>
+            <p class="rewardsHeading">Reviews given</p>
+        </div>
+        <div class="divider"></div>
+        <div class="rewardsGroup">
+            <p class="count" data-val="13">00+</p>
+            <p class="rewardsHeading">Five star</p>
+        </div>
+    </div>
+    <!-- THIS IS ABOUT ME SECTION  -->
+    <div class="about" id="about-Me">
+        <div class="aboutHeading">
+            <p class="aboutSection1">About me</p>
+
+        </div>
+        <div class="aboutRow">
+            <div class="left">
+                <img src="images/About Me.png" alt="About">
+            </div>
+            <div class="right">
+                <p class="aboutSection2"> <span class="stylespan">Curious about me?</span> Here you have it:</p>
+                <div class="aboutContent">
+                    Hello there! 👋 I'm Ritam, a passionate and dedicated freelance web developer with a keen
+                    focus on frontend design. I thrive on bringing digital ideas to life through intuitive and visually
+                    appealing user interfaces. Let me take you on a journey through my skills and experiences.
+                </div>
+                <div class="aboutContent">
+                    I began my journey as a web developer in 2021, and since then, I've continued to grow and evolve as
+                    a developer, taking on new challenges and learning the latest technologies along the way. Now, in my
+                    early thirties, 2.5 years after starting my web development journey, I'm building cutting-edge web
+                    applications using modern technologies such as React.js, TypeScript, Bootstrap, Tailwindcss, and
+                    much more.
+                </div>
+                <div class="aboutContent">
+                    When I'm not in full-on developer mode, you can find me hovering around on GitHub , where I share
+                    tech-related Project and build in public, or you can follow me.
+                </div>
+                <div class="aboutContent">
+                    So finaly, I'm available for freelance work,or Web Devolpening Service so feel free to reach out and
+                    say hello!😎 </div>
+            </div>
+        </div>
+    </div>
+    <!-- THIS IS MY SKILL SECTION -->
+    <div class="skill" id="skills">
+        <!-------------------- Skill Module-1 --------------------------->
+        <div class="skill-Title">
+            <p class="title1">My Skills</p>
+            <p class="title2"> <span>The Skills Tools and Technologies</span> I am really good at</p>
+        </div>
+        <div class="skill-Items">
+            <div class="content dynamic-Content">
+                <div class="section">
+                    <div class="description">
+                        <p class="heading">Frontend</p>
+                    </div>
+                    <div class="logo">
+                        <p> <img class="logo" src="images/HtmlLogo.png" style=" height: 44px;" alt="logo1">
+                            <span>Html</span>
+                        </p>
+                        <p href="#"><img class="logo" src="images/CssLogo.png" style="  height: 44px;"
+                                alt="logo1"><span>CSS</span></p>
+                        <p href="#"><img class="logo" src="images/icon-javscript.png" style=" height: 42px;"
+                                alt="logo1">
+                            <span>JavaScript</span>
+                        </p>
+                    </div>
+                    <div class="logo">
+                        <p href="#"> <img class="logo" src="images/icon-react.png"
+                                style=" height: 42px;    padding-left: 12px;" alt="logo1"><span>React Js</span>
+                        </p>
+                        <p href="#"><img class="logo" src="images/icon-tailwindcss.png" style="height: 42px;"
+                                alt="logo1"><span>Tailwindcss</span> </p>
+                        <p href="#"><img class="logo" src="images/bootstrapIcon.png" style="height: 49px;"
+                                alt="logo1"><span>Bootstrap</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content dynamic-Content">
+                <div class="section">
+                    <div class="description">
+                        <p class="heading"> Backend </p>
+                    </div>
+                    <div class="logo back-end" style="gap: 31px;">
+                        <p href="#"><img class="logo" src="images/icon-nodejs.png" style="height: 49px;"
+                                alt="logo1"><span>Node Js</span></p>
+                        <p href="#"><img class="logo" src="images/icon-express.png" style="height: 49px;"
+                                alt="logo1"><span>Express js</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="content dynamic-Content">
+                <div class="section">
+                    <div class="description">
+                        <p class="heading">Database</p>
+                    </div>
+                    <div class="logo" style="gap: 33px;padding-left: 34px;">
+                        <p href="#"><img class="logo" src="images/icon-mongodb.png" style="height: 49px;"
+                                alt="logo1"><span>Mongo DB</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="content dynamic-Content">
+                <div class="section">
+                    <div class="description">
+                        <p class="heading">Devops</p>
+                    </div>
+                    <div class="logo" style="gap: 30px;padding-left: 34px;">
+                        <p href="#"><img class="logo" src="images/icon-git.png" style="height: 49px;"
+                                alt="logo1"><span>Git</span></p>
+                        <p href="#"><img class="logo" src="images/github.png" style="height: 49px;" alt="logo1">
+                            <span>GitHub</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-------------------- Skill Module-2 --------------------------->
+
+        <!-- This is why you hire me section html content -->
+        <div class="skill-Title SkillModule2" id="skill-Set">
+            <p class="title2"> <span> Why You Hire Me</span> For Your
+                Next Project?
+            </p>
+        </div>
+        <!-- ............................SECETION PART-1........................ -->
+        <div class="skillDescription">
+            <div class="skill-Content">
+
+                <div class="skill-Content-Section">
+                    <div class="descriptionSection1">
+                        <img src="images/Exparticeicon.png" alt="Expartice">
+                    </div>
+                    <div class="descriptionSection2">
+                        <p>Responsive Design Expertise</p>
+                    </div>
+                    <div class="descriptionSection3">
+                        <p>Proficient in creating websites that adapt seamlessly to various screen sizes and
+                            devices,
+                            ensuring an optimal user experience on desktops, tablets, and smartphones.</p>
+
+                    </div>
+                </div>
+                <div class="skill-Content-Section">
+                    <div class="descriptionSection1">
+                        <img src="images/Exparticeicon.png" alt="Expartice">
+                    </div>
+                    <div class="descriptionSection2">
+                        <p>Cross-Browser Compatibility</p>
+                    </div>
+                    <div class="descriptionSection3">
+                        <p>Experienced in developing websites that work consistently across different web browsers,
+                            ensuring a consistent experience for users regardless of their chosen platform.</p>
+
+                    </div>
+                </div>
+                <div class="skill-Content-Section">
+                    <div class="descriptionSection1">
+                        <img src="images/Exparticeicon.png" alt="Expartice">
+                    </div>
+                    <div class="descriptionSection2">
+                        <p>Performance Optimization</p>
+                    </div>
+                    <div class="descriptionSection3">
+                        <p>Adept at optimizing website performance, implementing techniques such as lazy loading,
+                            image
+                            compression, and code minification to enhance page load times and overall user
+                            experience.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="skill-Content-Section">
+                    <div class="descriptionSection1">
+                        <img src="images/Exparticeicon.png" alt="Expartice">
+                    </div>
+                    <div class="descriptionSection2">
+                        <p>Problem Solving and Troubleshooting</p>
+                    </div>
+                    <div class="descriptionSection3">
+                        <p> Skilled in identifying and resolving frontend-related issues promptly, ensuring smooth
+                            and
+                            error-free user experiences.</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ............................SECETION PART-2........................ -->
+        <!-- This content initial hide -->
+        <div class="skillDescription moreSkill-Content" style="display: none;">
+            <div class="skill-Content">
+
+                <div class="skill-Content-Section">
+                    <div class="descriptionSection1">
+                        <img src="images/Exparticeicon.png" alt="Expartice">
+                    </div>
+                    <div class="descriptionSection2">
+                        <p>Responsive Design Expertise</p>
+                    </div>
+                    <div class="descriptionSection3">
+                        <p>Proficient in creating websites that adapt seamlessly to various screen sizes and
+                            devices,
+                            ensuring an optimal user experience on desktops, tablets, and smartphones.</p>
+
+                    </div>
+                </div>
+                <div class="skill-Content-Section">
+                    <div class="descriptionSection1">
+                        <img src="images/Exparticeicon.png" alt="Expartice">
+                    </div>
+                    <div class="descriptionSection2">
+                        <p>Cross-Browser Compatibility</p>
+                    </div>
+                    <div class="descriptionSection3">
+                        <p>Experienced in developing websites that work consistently across different web browsers,
+                            ensuring a consistent experience for users regardless of their chosen platform.</p>
+
+                    </div>
+                </div>
+                <div class="skill-Content-Section">
+                    <div class="descriptionSection1">
+                        <img src="images/Exparticeicon.png" alt="Expartice">
+                    </div>
+                    <div class="descriptionSection2">
+                        <p>Performance Optimization</p>
+                    </div>
+                    <div class="descriptionSection3">
+                        <p>Adept at optimizing website performance, implementing techniques such as lazy loading,
+                            image
+                            compression, and code minification to enhance page load times and overall user
+                            experience.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="skill-Content-Section">
+                    <div class="descriptionSection1">
+                        <img src="images/Exparticeicon.png" alt="Expartice">
+                    </div>
+                    <div class="descriptionSection2">
+                        <p>Problem Solving and Troubleshooting</p>
+                    </div>
+                    <div class="descriptionSection3">
+                        <p> Skilled in identifying and resolving frontend-related issues promptly, ensuring smooth
+                            and
+                            error-free user experiences.</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- THIS IS HTML CODE FOR SHOW & MORE CONTENT-->
+    <!-- FOR THE SKILL SECTION-->
+    <hr class="myhr">
+    <div class="showMore">
+        <div class="showLessbutton">
+            <!-- youtube shorts Show more features -->
+            <button class="showmoreShorts" title="Show More content">
+                <p>Show More</p>
+                <img src=" images/Show More.png" alt="Show More">
+            </button>
+            <!-- youtube shorts Show Less features -->
+            <button style="display: none;" class="showlessShorts" title="Show Less shorts shorts">
+                <p> Show Less</p>
+                <img title="Show Less shorts" src=" images/Show Less.png" alt="Show Less">
+            </button>
+
+        </div>
+    </div>
+
+
+    <!-- THIS IS UPGRADE ALL PROJECT SECTION   -->
+    <div class="project" id="Projects">
+        <div class="skill-Title">
+            <p class="title1">Projects</p>
+            <p class="title2"> Some of the noteworthy projects <span>I have built</span></p>
+        </div>
+        <!-- ........THIS IS FIRST CONTAINER OF PROJECT SECTION PART-1........ -->
+        <div class="container ">
+            <div class="row projectsRow ">
+                <div class="projectColmumn-Left">
+                    <img src="images/Image1.png" alt="Image1">
+                </div>
+                <div class="projectColmumn-Right">
+                    <div class="project-Name">YouTube Clone Project</div>
+                    <div class="project-Description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Maecenas
+                        nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et
+                        ultrices posuere cubilia curae.</div>
+                    <div class="project-Technologies">
+                        <div class="tag">
+                            <p class="">Tailwindcss</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">Bootstrap</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">React js</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">Express js</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">Mongo DB</p>
+                        </div>
+                    </div>
+                    <div class="project-Action" title=" Check All Details Code.">
+                        <a href="#"> View in GitHub</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                            <path d="M4.00004 1.66675H17.3334V15.0001M17.3334 1.66675L1.33337 17.6667L17.3334 1.66675Z"
+                                stroke="black" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row-Reserve projectsRow">
+                <div class="projectColmumn-Left">
+                    <img src="images/Image1.png" alt="Image1">
+                </div>
+                <div class="projectColmumn-Right">
+                    <div class="project-Name">YouTube Clone Project</div>
+                    <div class="project-Description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Maecenas
+                        nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et
+                        ultrices posuere cubilia curae.</div>
+                    <div class="project-Technologies">
+                        <div class="tag">
+                            <p class="">Tailwindcss</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">Bootstrap</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">React js</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">Express js</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">Mongo DB</p>
+                        </div>
+                    </div>
+                    <div class="project-Action" title=" Check All Details Code.">
+                        <a href="#"> View in GitHub</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                            <path d="M4.00004 1.66675H17.3334V15.0001M17.3334 1.66675L1.33337 17.6667L17.3334 1.66675Z"
+                                stroke="black" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row projectsRow">
+                <div class="projectColmumn-Left">
+                    <img src="images/Image1.png" alt="Image1">
+                </div>
+                <div class="projectColmumn-Right">
+                    <div class="project-Name">YouTube Clone Project</div>
+                    <div class="project-Description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Maecenas
+                        nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci
+                        luctus et
+                        ultrices posuere cubilia curae.</div>
+                    <div class="project-Technologies">
+                        <div class="tag">
+                            <p class="">Tailwindcss</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">Bootstrap</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">React js</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">Express js</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">Mongo DB</p>
+                        </div>
+                    </div>
+                    <div class="project-Action" title=" Check All Details Code.">
+                        <a href="#"> View in GitHub</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                            <path d="M4.00004 1.66675H17.3334V15.0001M17.3334 1.66675L1.33337 17.6667L17.3334 1.66675Z"
+                                stroke="black" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row-Reserve projectsRow">
+                <div class="projectColmumn-Left">
+                    <img src="images/Image1.png" alt="Image1">
+                </div>
+                <div class="projectColmumn-Right">
+                    <div class="project-Name">YouTube Clone Project</div>
+                    <div class="project-Description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit.
+                        Maecenas
+                        nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci
+                        luctus et
+                        ultrices posuere cubilia curae.</div>
+                    <div class="project-Technologies">
+                        <div class="tag">
+                            <p class="">Tailwindcss</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">Bootstrap</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">React js</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">Express js</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">Mongo DB</p>
+                        </div>
+                    </div>
+                    <div class="project-Action" title=" Check All Details Code.">
+                        <a href="#"> View in GitHub</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                            <path d="M4.00004 1.66675H17.3334V15.0001M17.3334 1.66675L1.33337 17.6667L17.3334 1.66675Z"
+                                stroke="black" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- ........THIS IS SECEND CONTAINER OF PROJECT SECTION PART-2........ -->
+        <div class="container project-List" style="display:none">
+            <div class="row projectsRow">
+                <div class="projectColmumn-Left">
+                    <img src="images/Image1.png" alt="Image1">
+                </div>
+                <div class="projectColmumn-Right">
+                    <div class="project-Name">YouTube Clone Project</div>
+                    <div class="project-Description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Maecenas
+                        nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et
+                        ultrices posuere cubilia curae.</div>
+                    <div class="project-Technologies">
+                        <div class="tag">
+                            <p class="">Tailwindcss</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">Bootstrap</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">React js</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">Express js</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">Mongo DB</p>
+                        </div>
+                    </div>
+                    <div class="project-Action" title=" Check All Details Code.">
+                        <a href="#"> View in GitHub</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                            <path d="M4.00004 1.66675H17.3334V15.0001M17.3334 1.66675L1.33337 17.6667L17.3334 1.66675Z"
+                                stroke="black" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row-Reserve projectsRow">
+                <div class="projectColmumn-Left">
+                    <img src="images/Image1.png" alt="Image1">
+                </div>
+                <div class="projectColmumn-Right">
+                    <div class="project-Name">YouTube Clone Project</div>
+                    <div class="project-Description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Maecenas
+                        nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et
+                        ultrices posuere cubilia curae.</div>
+                    <div class="project-Technologies">
+                        <div class="tag">
+                            <p class="">Tailwindcss</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">Bootstrap</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">React js</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">Express js</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">Mongo DB</p>
+                        </div>
+                    </div>
+                    <div class="project-Action" title=" Check All Details Code.">
+                        <a href="#"> View in GitHub</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                            <path d="M4.00004 1.66675H17.3334V15.0001M17.3334 1.66675L1.33337 17.6667L17.3334 1.66675Z"
+                                stroke="black" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row projectsRow">
+                <div class="projectColmumn-Left">
+                    <img src="images/Image1.png" alt="Image1">
+                </div>
+                <div class="projectColmumn-Right">
+                    <div class="project-Name">YouTube Clone Project</div>
+                    <div class="project-Description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Maecenas
+                        nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci
+                        luctus et
+                        ultrices posuere cubilia curae.</div>
+                    <div class="project-Technologies">
+                        <div class="tag">
+                            <p class="">Tailwindcss</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">Bootstrap</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">React js</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">Express js</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">Mongo DB</p>
+                        </div>
+                    </div>
+                    <div class="project-Action" title=" Check All Details Code.">
+                        <a href="#"> View in GitHub</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                            <path d="M4.00004 1.66675H17.3334V15.0001M17.3334 1.66675L1.33337 17.6667L17.3334 1.66675Z"
+                                stroke="black" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row-Reserve projectsRow">
+                <div class="projectColmumn-Left">
+                    <img src="images/Image1.png" alt="Image1">
+                </div>
+                <div class="projectColmumn-Right">
+                    <div class="project-Name">YouTube Clone Project</div>
+                    <div class="project-Description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit.
+                        Maecenas
+                        nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci
+                        luctus et
+                        ultrices posuere cubilia curae.</div>
+                    <div class="project-Technologies">
+                        <div class="tag">
+                            <p class="">Tailwindcss</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">Bootstrap</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">React js</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">Express js</p>
+                        </div>
+                        <div class="tag">
+                            <p class="">Mongo DB</p>
+                        </div>
+                    </div>
+                    <div class="project-Action" title=" Check All Details Code.">
+                        <a href="#"> View in GitHub</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                            <path d="M4.00004 1.66675H17.3334V15.0001M17.3334 1.66675L1.33337 17.6667L17.3334 1.66675Z"
+                                stroke="black" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- THIS IS HTML CODE FOR SHOW & MORE CONTENT-->
+    <!-- FOR THE PROJECT SECTION -->
+    <hr class="myhr">
+    <div class="showMore">
+        <div class="showLessbutton">
+            <!-- youtube shorts Show more features -->
+            <button class="showmoreShorts showmoreProjects" title="Show More content">
+                <p>Show More</p>
+                <img src=" images/Show More.png" alt="Show More">
+            </button>
+            <!-- youtube shorts Show Less features -->
+            <button style="display: none;" class="showlessShorts showlessProjects" title="Show Less shorts shorts">
+                <p> Show Less</p>
+                <img title="Show Less shorts" src=" images/Show Less.png" alt="Show Less">
+            </button>
+
+        </div>
+    </div>
+
+    <!--  THIS IS MY TESTIMONIAL SECTION -->
+    <div class="testimonial" id="testiimonial">
+        <div class="skill-Title">
+            <p class="title1">Testimonial</p>
+            <p class="title2">Our Customer Say
+                Something <span> About Us </span>
+        </div>
+        <div class="testimonial-Header">
+
+            <div class="testimonial-Content">
+                <div class="card">
+                    <div class="avtar">
+                        <img src="images/Avatar Image.png" style="height: 43px;" alt="Avatar">
+                        <div class="details">
+                            <p class="name">Romesh navav</p>
+                            <p class="profesion">Sunlight Industry</p>
+                        </div>
+                    </div>
+                    <div class="star">
+                        <img src="images/StarVector.png" alt="">
+                        <img src="images/StarVector.png" alt="">
+                        <img src="images/StarVector.png" alt="">
+                        <img src="images/StarVector.png" alt="">
+                        <img src="images/StarVector.png" alt="">
+
+                    </div>
+                    <p class="testimonial-Massasge">"Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Cumque
+                        repudiandae consequuntur aspernatur reiciendis, perferendis soluta, doloribus quas
+                        provident,
+                        distinctio molestias nam repellendus! Maiores placeat, nulla nisi et eveniet dolor
+                        vel.</p>
+
+                </div>
+                <div class="card">
+                    <div class="avtar">
+                        <img src="images/Avatar Image.png" style="height: 43px;" alt="Avatar">
+                        <div class="details">
+                            <p class="name">Romesh navav</p>
+                            <p class="profesion">Sunlight Industry</p>
+                        </div>
+                    </div>
+                    <div class="star">
+                        <img src="images/StarVector.png" alt="">
+                        <img src="images/StarVector.png" alt="">
+                        <img src="images/StarVector.png" alt="">
+                        <img src="images/StarVector.png" alt="">
+                        <img src="images/StarVector.png" alt="">
+
+                    </div>
+                    <p class="testimonial-Massasge">"Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Cumque
+                        repudiandae consequuntur aspernatur reiciendis, perferendis soluta, doloribus quas
+                        provident,
+                        distinctio molestias nam repellendus! Maiores placeat, nulla nisi et eveniet dolor
+                        vel.</p>
+
+                </div>
+                <div class="card">
+                    <div class="avtar">
+                        <img src="images/Avatar Image.png" style="height: 43px;" alt="Avatar">
+                        <div class="details">
+                            <p class="name">Romesh navav</p>
+                            <p class="profesion">Sunlight Industry</p>
+                        </div>
+                    </div>
+                    <div class="star">
+                        <img src="images/StarVector.png" alt="">
+                        <img src="images/StarVector.png" alt="">
+                        <img src="images/StarVector.png" alt="">
+                        <img src="images/StarVector.png" alt="">
+                        <img src="images/StarVector.png" alt="">
+
+                    </div>
+                    <p class="testimonial-Massasge">"Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Cumque
+                        repudiandae consequuntur aspernatur reiciendis, perferendis soluta, doloribus quas
+                        provident,
+                        distinctio molestias nam repellendus! Maiores placeat, nulla nisi et eveniet dolor
+                        vel.</p>
+
+                </div>
+                <div class="card">
+                    <div class="avtar">
+                        <img src="images/Avatar Image.png" style="height: 43px;" alt="Avatar">
+                        <div class="details">
+                            <p class="name">Romesh navav</p>
+                            <p class="profesion">Sunlight Industry</p>
+                        </div>
+                    </div>
+                    <div class="star">
+                        <img src="images/StarVector.png" alt="">
+                        <img src="images/StarVector.png" alt="">
+                        <img src="images/StarVector.png" alt="">
+                        <img src="images/StarVector.png" alt="">
+                        <img src="images/StarVector.png" alt="">
+
+                    </div>
+                    <p class="testimonial-Massasge">"Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Cumque
+                        repudiandae consequuntur aspernatur reiciendis, perferendis soluta, doloribus quas
+                        provident,
+                        distinctio molestias nam repellendus! Maiores placeat, nulla nisi et eveniet dolor
+                        vel.</p>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- THIS IS MY CONTACT SECTION-->
+    <div class="contact" id="contact">
+        <div class="contactTitle">
+            <p class="contactSection2">Contact me</p>
+        </div>
+        <form class="contactForm" action="https://formspree.io/f/mqkrzelo" method="POST">
+            <div class="row">
+                <div class="col">
+                    <label class="formLabel" for="formFirstname">First name</label>
+                    <input type="text" class="formInput" name="firstname" id="formFirstname" minlength="3" required>
+                </div>
+                <div class="col">
+                    <label class="formLabel" for="Lastname">Last name</label>
+                    <input type="text" class="formInput" name="Lastname" id="Lastname" minlength="3" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="formEmali" class="formLabel">Email</label>
+                    <input placeholder="parama@gmail.com" type="email" name="email" class="formInput" id="email"
+                        required>
+                </div>
+
+                <div class="col">
+                    <label for="telephone">Telephone Number (Optional)</label>
+                    <input class="formInput" type="telephone" name="telephone" id="telephone">
+                </div>
+            </div>
+            <div class="col">
+                <label for="formChouse" class="formselectLabel">Chouse a topic</label>
+                <select class="formselectInput" name="formChouse" id="formChouse" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>Simple & General Inquiry.</option>
+                    <option>Feedback about the website or personal experience.</option>
+                    <option>Hiring or Job Opportunities </option>
+                    <option>Technical Suppor or requiring assistance.</option>
+                    <option>Collaboration Opportunities or business inquiries.</option>
+                    <option>Report bugs or issues facing on the website.</option>
+                    <option>implementing features or improvements on my website. </option>
+                    <option>Others.</option>
+                </select>
+            </div>
+            <div class="col">
+                <label for="formMessage" class="formselectLabel">Write a Message</label>
+                <textarea class="formtextareaLabel" placeholder="Type your Message...." name="formMessage"
+                    id="formMessage" minlength=20 required></textarea>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                <label class="form-check-label" for="gridCheck">
+                    I will given a valid contact details.
+                </label>
+            </div>
+            <button type="submit" title="Submit Your Concern!" class="btn btn-primary">Submit</button>
+        </form>
+
+    </div>
+    <!--THIS IS MY GET IN TOUCH SECTION -->
+    <div class="touch" id="Get-in-touch">
+        <div class="touch-Container">
+            <div class="touch-Container-row">
+                <p class="hading1">Get in touch</p>
+                <p class="hading2"> What’s next? Feel free to reach out to me if you're looking for a
+                    developer, have a
+                    query, or simply want to connect.</p>
+            </div>
+            <div class="touch-Container-column">
+                <div class="Email">
+                    <img class="Email-icon" src="images/IconEmail.png" alt="IconEmail">
+                    <p class="touch-Container-Text" id="emailText">sarkarritam1999@gmail.com</p>
+                    <img onclick="copyText('emailText')" class="copyIcon" src="images/CoopyIcon Button.png"
+                        title="Copy the clipboard" alt="CopyIcon">
+                </div>
+                <div class="Phone">
+                    <img class="phone-icon" src="images/Iconphone.png" alt="Iconphone">
+                    <p class="touch-Container-Text" id="phoneText">+91-9123007831</p>
+                    <img onclick="copyText('phoneText')" class="copyIcon" src="images/CoopyIcon Button.png"
+                        title="Copy the clipboard" alt="CoopyIcon">
+
+                </div>
+            </div>
+            <div class="touch-Container-row">
+                <p class="socialTouch">You may also find me on these platforms!</p>
+                <div class="touchicon">
+                    <a href="https://github.com/Decode-Ritam" target="_blank"><img src="images/github.png"
+                            style="height: 28px; width: 30px;" title="Check me on GitHub" alt="github"></a>
+                    <a href="https://www.linkedin.com/in/ritam-sarkar-08352124a/"><img src="images/LinkedIn.png"
+                            alt="Linkedin" title="Linkedin"></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+    <!-- THIS IS MY FOOTER SECTION -->
+    <div class="footer">
+        <nav class="footernavbar">
+            <div class="footersectionLeft">
+                <div class="navLogo">
+                    <a href="#">Pro Devolper</a>
+                </div>
+
+            </div>
+            <div class="footersectionMiddle">
+                <ul class="footernavitem">
+                    <li class="list"><a href="#home-link">Home</a></li>
+                    <li class="list"><a href="#about-Me">About me</a></li>
+                    <li class="list"><a href="#skills">Skills</a></li>
+                    <li class="list"><a href="#skill-Set">Skill Set</a></li>
+                    <li class="list"><a href="#Projects">Projects</a></li>
+                    <li class="list"><a href="#testiimonial">Testimonial</a></li>
+                    <li class="list"><a href="#contact">Contact</a></li>
+
+                </ul>
+            </div>
+            <div class="footersectionRight">
+                <a class="footer-socialIcon" href="https://github.com/Decode-Ritam"><img src="images/github.png"
+                        alt="github " title="github"></a>
+                <a class="footer-socialIcon" href="https://www.linkedin.com/in/ritam-sarkar-08352124a/"><img
+                        src="images/LinkedIn.png" alt="Linkedin" title="Linkedin"></a>
+                <a class="footer-socialIcon" href="https://www.instagram.com/ritam.sarkar.52/"><img
+                        src="images/Instagram.png" alt="Instagram" title="Instagram"></a>
+                <a class="footer-socialIcon" href="https://www.facebook.com/ritam.sarkar.52"><img
+                        src="images/Facebook.png" alt="Facebook" title="Facebook"></a>
+                <a class="footer-socialIcon" style="cursor: not-allowed;"><img src="images/twiterx.png" alt="Twiterx"
+                        title="Twiterx"></a>
+            </div>
+        </nav>
+        <hr style="width: 100%;">
+        <div class="footer-contentPart">
+
+            <div class="section2">
+                <p class="text1"> &copy;2023 | Designed and coded ️ by Ritam Sarkar | All Right Reserve.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- LOAD LIBRARY (AUTO TYPING) FROM THE  CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- LOCAL CUSTOMIZE JS FILE -->
+    <script src="index.js"></script>
+    <script src="MoodeSelect.js"></script>
+
+</body>
+
+</html>
