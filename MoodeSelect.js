@@ -21,6 +21,7 @@ function toggleMode() {
     let dark = document.querySelector('.dark');
     let divider = document.querySelector('.divider ');
     let cvCheckBtn = document.querySelector('.cvCheckBtn  ');
+    let lineitems = document.querySelectorAll('.line  ');
 
     let anchorTags = document.querySelectorAll('.navitem li a');
     let footeranchorTags = document.querySelectorAll('.footernavitem li a');
@@ -52,6 +53,13 @@ function toggleMode() {
             }
         });
     })
+
+    // This is navbar burger mood change
+    lineitems.forEach(linestyle => {
+        linestyle.style.cssText = isDarkMode ? '' : 'background-color: white;'
+
+    });
+
     // .............This is for top navbar...................
     anchorTags.forEach(anchor => {
         anchor.style.cssText = isDarkMode ? '' : 'background-color: black; color: white;border-bottom: 2px solid transparent;';
