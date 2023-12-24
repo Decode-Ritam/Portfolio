@@ -42,6 +42,7 @@ let typed = new Typed('#element', {
 const messages = [
     "Contact us if you looking for a developer  or any type of queries.",
     "Know more about me, Explore our sites or services.",
+     "Thank you for visiting my portfolio!",
 ];
 const messageElement = document.getElementById("message");
 let messageIndex = 0;
