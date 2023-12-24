@@ -30,10 +30,10 @@ I am a skilled Frontend Website Developer(React.js) dedicated to creating visual
 
 ## Projects
 Here are some highlighted projects from my portfolio:
-
-## . [ Project ](link to project repository or live demo)**
+ 
    - Brief description of the project and its significance.
    - Technologies used: [list the key technologies or programming languages].
+   - Give a link of code and case study about this code.
 
  
 For a complete list of projects, please check the [Projects](./Projects) directory.
