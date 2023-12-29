@@ -221,6 +221,7 @@ body:hover::-webkit-scrollbar-thumb {
     display: flex;
     padding: 100px 80px 45px 80px;
     align-items: center;
+    justify-content: center;
     background: #F5FCFF;
 }
 
@@ -294,17 +295,22 @@ body:hover::-webkit-scrollbar-thumb {
 
 .headerRight {
     width: 40%;
-    flex-shrink: 0;
-    /* margin-left: 60px; */
 }
 
-.headerRight img {
+/* .headerRight img {
     width: 470px;
     height: 460px;
     margin-bottom: 100px;
     margin-left: 60px;
+} */
+.headerRight .maskimages {
+    height: 90px;
 }
 
+#maskSimg {
+    display: none;
+
+}
 .action-part {
     display: flex;
     align-items: center;
@@ -440,8 +446,9 @@ body:hover::-webkit-scrollbar-thumb {
     background: white;
     transition: 1s ease-in-out;
 }
-.contentBackground{
-    background-color:white;
+
+.contentBackground {
+    background-color: white;
 }
 
 .skill-Items .content {
@@ -602,14 +609,15 @@ body:hover::-webkit-scrollbar-thumb {
 .about .aboutRow {
     display: flex;
     align-items: center;
-    gap: 187px;
+    gap: 87px;
     align-self: stretch;
 
 }
 
 .aboutRow .left img {
-    width: 480px;
+    width: 292px;
     height: 480px;
+    border-radius: 10px;
 }
 
 .right {

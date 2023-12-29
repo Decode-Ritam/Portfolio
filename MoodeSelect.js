@@ -109,7 +109,8 @@ function toggleMode() {
     cvCheckBtn.style.cssText = isDarkMode ? '' : 'border: 2px solid white';
     //    ...................
     footer.style.cssText = isDarkMode ? '' : 'background-color: black; color: white;';
-    footersectionRight.style.cssText = isDarkMode ? '' : 'background: white; border-radius: 4px;';
+    footersectionRight.style.cssText = isDarkMode ? '' : 'filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(136deg) brightness(105%) contrast(101%);';
+
 
 
     // ..............THIS IS HEADER SECTUION MOOD CHANGE CODE....................

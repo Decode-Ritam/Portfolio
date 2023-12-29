@@ -238,8 +238,8 @@
     }
 
     .aboutRow .left img {
-        width: 383px;
-        height: 350px;
+        width: 260px;
+        height: 425px;
     }
 
     .about .aboutRow {
@@ -277,12 +277,28 @@
     }
 
     /* ...........This is Header section Responsive Style........... */
-    .headerRight img {
-        width: 399px;
-        height: 349px;
-        margin-bottom: 100px;
-        margin-left: 13px;
+    .headerRight .maskimages {
+        height: 94px;
+        width: 76px;
+
+
     }
+
+    #maskBimg {
+        display: none;
+    }
+
+    #maskSimg {
+        display: block;
+
+    }
+
+    .headerRight svg {
+        margin-left: 31px;
+        height: 390px;
+
+    }
+
 
     .headerSection {
         display: flex;
@@ -364,19 +380,21 @@
         flex-direction: column-reverse;
     }
 
-    .headerRight {
+    /* .headerRight {
         width: auto;
-    }
+    } */
 
     .headerLeft {
         width: auto;
     }
 
-    .headerRight img {
-        width: 399px;
-        height: 349px;
-        margin-bottom: 30px;
-        margin-left: 0px;
+    .headerRight .maskimages {
+        height: 115px;
+    }
+
+    .headerRight svg {
+        margin-left: -54px;
+        height: 390px;
     }
 
     .content-part p.main-Text1 {
@@ -682,9 +700,10 @@
     .about {
         padding: 80px 20px;
     }
+
     .aboutRow .left img {
-        width: 243px;
-        height: 242px;
+        width: 181px;
+        height: 255px;
     }
 
     .right .aboutSection2 {
@@ -713,14 +732,16 @@
 
     /* ..........Thsi is Header section ..............*/
     .headerSection {
-         padding: 100px 20px 45px 20px;
- 
+        padding: 100px 20px 45px 20px;
+
     }
-    .headerRight img {
-        width: 307px;
-        height: 254px;
-        margin-bottom: 0px;
-        margin-left: 0px;
+
+    .headerRight .maskimages {
+        height: 115px;
+    }
+
+    .headerRight svg {
+        height: 265px;
     }
 
     .content-part p.main-Text1 {
@@ -780,7 +801,8 @@
     .footer {
         display: flex;
         padding: 0px;
-     }
+    }
+
     .footernavbar {
         display: none;
     }
