@@ -20,13 +20,14 @@ This is home main page of this portfolio.
 I am a skilled Frontend Website Developer(React.js) dedicated to creating visually stunning and user-friendly interfaces websites. With expertise in HTML, CSS, and JavaScript, Committed to delivering excellence. As a freelancer, I bring a passion for innovation and a commitment to timely project delivery. Even though I have been creating web applications for over 2 years, Let's work together to create impactful digital solutions that leave a lasting impression. I am eager to contribute my skills to your projects and bring your vision to life.
 
 ## Skills
-- **Programming Languages:** [list the programming languages - Java Script ].
-- **Web Technologies:** [list web development technologies - React js].
-- **Tools and Frameworks:** [mention any tools or frameworks use - Bootstrap].
+- **Front-end Programming Languages:** HTML, CSS, Java Script, HTML5, CSS3.
+- **Back-end Programming Languages:** Node js Express js.
+- **Othrrs:** Git, GitHub.
+ 
 
 ## skill-Set
-- **front-end Soft Skills:**[Responsive Design Expertise,Cross-Browser Compatibility,Performance Optimization,Problem Solving and Troubleshooting etc.].
-- **Other Soft Skills:** [Soft skills, such as teamwork, communication, etc.].
+- **front-end Soft Skills:** Heare are list about all front-end soft skills.
+ 
 
 ## Projects
 Here are some highlighted projects from my portfolio:
@@ -36,7 +37,7 @@ Here are some highlighted projects from my portfolio:
    - Give a link of code and case study about this code.
 
  
-For a complete list of projects, please check the [Projects](./Projects) directory.
+For a complete list of projects, please check the Repository [https://github.com/Decode-Ritam?tab=repositories].
 
 ## testiimonial
 Hear about some message what you say customer say somthing about me??

@@ -311,6 +311,7 @@ body:hover::-webkit-scrollbar-thumb {
     display: none;
 
 }
+
 .action-part {
     display: flex;
     align-items: center;
@@ -741,7 +742,7 @@ body:hover::-webkit-scrollbar-thumb {
     font-size: 15px;
     color: #282938;
     line-height: 24px;
-    width: 80%;
+    width: 100%;
 }
 
 .projectColmumn-Right .project-Technologies {
@@ -755,7 +756,7 @@ body:hover::-webkit-scrollbar-thumb {
 
 .project-Technologies .tag {
     display: flex;
-    padding: 9px 16px;
+    padding: 5px 16px;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
@@ -769,11 +770,18 @@ body:hover::-webkit-scrollbar-thumb {
     font-weight: 500;
 }
 
+.projectLinks {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
 .projectColmumn-Right .project-Action {
     display: flex;
-    padding: 11px 23px;
+    padding: 3px 18px;
     background: #c4c4c4;
-    border-radius: 7px;
+    border-radius: 4px;
     align-items: center;
     justify-content: center;
     gap: 12px;
@@ -786,13 +794,14 @@ body:hover::-webkit-scrollbar-thumb {
 }
 
 .project-Action:hover a {
-    color: #006B6A;
-    ;
+    /* color: #006B6A; */
+    filter: invert(38%) sepia(69%) saturate(7488%) hue-rotate(246deg) brightness(93%) contrast(102%);
+    
 }
 
 .project-Action:hover svg path {
-    stroke: #006B6A;
-    ;
+    filter: invert(38%) sepia(69%) saturate(7488%) hue-rotate(246deg) brightness(93%) contrast(102%);
+    
 }
 
 /*..........................THIS IS MY TESTIMONIAL SECTION STYLE. ............................*/

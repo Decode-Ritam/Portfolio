@@ -190,22 +190,22 @@ ShortsLessBtn.addEventListener('click', function () {
 });
 
 //.................... THIS IS  MORE PROJECT CONTENT SHOW MORE/SHOW LESS" FUNCTIONALITY-----------------------------
-const ProjectsMoreBtn = document.querySelector('.showmoreProjects');
-const ProjectsLessBtn = document.querySelector('.showlessProjects');
-const ProjectsContent = document.querySelector('.project-List');
+// const ProjectsMoreBtn = document.querySelector('.showmoreProjects');
+// const ProjectsLessBtn = document.querySelector('.showlessProjects');
+// const ProjectsContent = document.querySelector('.project-List');
 
-ProjectsMoreBtn.addEventListener('click', function () {
-    ProjectsContent.style.display = 'flex';
-    ProjectsMoreBtn.style.display = 'none';
-    ProjectsLessBtn.style.display = 'flex';
-});
+// ProjectsMoreBtn.addEventListener('click', function () {
+//     ProjectsContent.style.display = 'flex';
+//     ProjectsMoreBtn.style.display = 'none';
+//     ProjectsLessBtn.style.display = 'flex';
+// });
 
-ProjectsLessBtn.addEventListener('click', function () {
-    ProjectsContent.style.display = 'none';
-    ProjectsMoreBtn.style.display = 'flex';
-    ProjectsLessBtn.style.display = 'none';
+// ProjectsLessBtn.addEventListener('click', function () {
+//     ProjectsContent.style.display = 'none';
+//     ProjectsMoreBtn.style.display = 'flex';
+//     ProjectsLessBtn.style.display = 'none';
 
-});
+// });
 
 
 // ............THIS IS RESPONSIVE FUNCTION...............
@@ -256,7 +256,7 @@ listItems.forEach(listItem => {
 
 document.getElementById('downloadBtn').addEventListener('click', () => {
     // Replace 'path/to/your/file.pdf' with the actual path to your PDF file
-    const pdfPath = 'My files/RITAM SARKAR CV 2022 (1).pdf';
+    const pdfPath = 'My files/My Resume - Google Docs.pdf';
 
     // Create an anchor element
     const link = document.createElement('a');
@@ -265,7 +265,7 @@ document.getElementById('downloadBtn').addEventListener('click', () => {
     link.href = pdfPath;
 
     // Set the download attribute with the desired filename
-    link.download = 'Ritam-Portfolio.pdf';
+    link.download = 'Ritam-Resume.pdf';
 
     // Append the link to the body
     document.body.appendChild(link);
